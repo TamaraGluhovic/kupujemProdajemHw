@@ -20,8 +20,8 @@ public class Homework1 {
                 clickSearch.sendKeys(" iphone 13");
                 WebElement pressEnterToSeeAds = driver.findElement(By.name("submit[search]"));
                 pressEnterToSeeAds.submit();
-                WebElement ChooseFirstAd = driver.findElement(By.id("adDescription7321776"));
-                ChooseFirstAd.click();
+                WebElement chooseFirstAd = driver.findElement(By.id("adDescription7321776"));
+                chooseFirstAd.click();
                 driver.close();
     }
 }
